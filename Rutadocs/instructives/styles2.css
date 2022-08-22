@@ -60,3 +60,29 @@
     justify-content: flex-end;
     margin-right: 8rem;
 }
+
+
+.instructivos {
+    background: rgb(168, 165, 165);
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+}
+.instructivos h2{
+    margin-left: 1rem;
+}
+
+.instructivos p {
+    color: white;
+    margin-bottom: -1rem;
+    margin-left: 1rem;
+}
+
+.instructivos li {
+    margin-bottom: 0.5rem;
+    margin-left: 4rem;
+}
+
+.instructivos ul {
+    padding: 2rem;
+}
