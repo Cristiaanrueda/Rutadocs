@@ -74,6 +74,26 @@
     background: #89106f31;
 }
 
+.indice h2 {
+    margin-left: 1rem;
+}
+
+.indice ul {
+    margin-left: 1rem;
+}
+
+.indice li {
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+
+.indice li:hover {
+    color: white;
+    background: #89106f7a;
+    
+}
+
 .contenido {
     flex-basis: 80%;
     margin-left: 2rem;
@@ -93,4 +113,22 @@ a {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
+}
+
+.page_changer_container {
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 4rem;
+}
+
+.page_changer_container a {
+    border: 2px solid grey;
+    border-radius: 1rem;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.page_changer_container a:hover {
+    color: white;
+    background: #89106f7a;
 }
