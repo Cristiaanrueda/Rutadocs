@@ -28,7 +28,7 @@
 
 
 .logof{ 
-    background: url('/Rutadocs/assets/logo.jpg'); 
+    background: url('./assetsG/logo.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
