@@ -28,7 +28,7 @@
 
 
 .logof{ 
-    background: url('../assets/logo.jpg'); 
+    background: url('/Rutadocs/assets/logo.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -62,27 +62,35 @@
 }
 
 
-.instructivos {
-    background: rgb(168, 165, 165);
-    width: 50%;
-    margin: 0 auto;
-    color: white;
-}
-.instructivos h2{
-    margin-left: 1rem;
+.indice_container {
+    display: flex;
 }
 
-.instructivos p {
-    color: white;
-    margin-bottom: -1rem;
-    margin-left: 1rem;
+
+.indice {
+    flex-basis: 20%;
+    margin-left: 2rem;
+    border: 2px solid #89106f;
+    background: #89106f31;
 }
 
-.instructivos li {
-    margin-bottom: 0.5rem;
-    margin-left: 4rem;
+.contenido {
+    flex-basis: 80%;
+    margin-left: 2rem;
 }
 
-.instructivos ul {
-    padding: 2rem;
+ul,
+li {
+    list-style: none;
+    padding: 0.8rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
 }
