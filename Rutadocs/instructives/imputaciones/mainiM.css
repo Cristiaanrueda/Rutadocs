@@ -1,14 +1,12 @@
 html {
     box-sizing: border-box;
     font-size: 10px;
-
 }
 
 *,
 *::before,
 *::after {
     box-sizing: inherit;
-
 }
 
 h1 {
@@ -23,5 +21,6 @@ p{
 
 
 footer {
-    background: #89106f;
+    background: #89106f
 }
+

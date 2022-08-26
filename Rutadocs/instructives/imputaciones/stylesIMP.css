@@ -28,7 +28,7 @@
 
 
 .logof{ 
-    background: url('./assetsG/logo.jpg'); 
+    background: url('../gecom/assetsG/logo.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -95,8 +95,18 @@
 }
 
 .contenido {
-    flex-basis: 80%;
-    margin-left: 2rem;
+    flex-basis: 100%;
+    text-align: center;
+    border-top: 2px solid #89106f7a;
+
+}
+
+.contenido img {
+    margin-top: 2rem;
+}
+
+.contenido p {
+    text-decoration: underline;
 }
 
 ul,
@@ -126,6 +136,7 @@ a {
     border-radius: 1rem;
     font-size: 2rem;
     padding: 1rem;
+    margin-bottom: 4rem;
 }
 
 .page_changer_container a:hover {
@@ -136,4 +147,32 @@ a {
 .active {
     color: white;
     background: #89106f7a;
+}
+
+.blue{
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+p {
+    font-size: 3rem;
+}
+
+.contenido li {
+    font-size: 1.8rem;
+    padding: 1.3rem;
+    font-weight: 700;
+}
+
+.superWrapper {
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+}
+
+body {
+    background: rgb(226, 221, 221);
 }
