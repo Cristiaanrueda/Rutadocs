@@ -1,0 +1,37 @@
+@media (max-width: 1140px){
+    .imgContainer img {
+        width: 100%;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    .imgContainer {
+        width: 100%;
+
+    }
+
+    .banner {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px){
+    .imgContainer img {
+        width: 100%;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    .imgContainer {
+        width: 100%;
+
+    }
+
+    .banner {
+        width: 100%;
+    }
+}
