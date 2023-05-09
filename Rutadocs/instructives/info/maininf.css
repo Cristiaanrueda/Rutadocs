@@ -1,0 +1,26 @@
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1 {
+    font-size: 2rem;
+    color: rgb(211, 35, 152);
+}
+
+p{
+    color: rgb(128, 24, 93);
+    font-size: 1.5rem;
+}
+
+
+footer {
+    background: #89106f
+}
+
