@@ -107,6 +107,12 @@
 
 }
 
+.contenido h4 {
+    font-size: 2.1rem;
+    margin-bottom: -0.5rem;
+    text-decoration: underline;
+}
+
 .contenido p{
     color: black;
     text-decoration: none;
@@ -184,3 +190,49 @@ p {
 body {
     background: rgb(226, 221, 221);
 }
+
+
+.texto_cont {
+    font-size: 2rem;
+    padding: 1.3rem;
+    font-weight: 700;
+}
+
+.separador {
+    height: 0.5rem;
+    border-top: 2px solid #89106f; 
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.2rem;
+}
+
+.grid_img_rto {
+    width: 35rem;
+    height: 35rem;
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-image: url(rto_fig.png);
+}
+.grid_img_cedu {
+    width: 35rem;
+    height: 35rem;
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-image: url(cedula_fig.png);
+}
+.grid_img_prov {
+    width: 35rem;
+    height: 35rem;
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-image: url(prov_fig.png);
+}
+
